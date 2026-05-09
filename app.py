@@ -29,7 +29,7 @@ def main():
 
     # --- TAB 1: VISION (Image to Text) ---
     with tab1:
-        img_file = st.file_uploader("Upload Image", type=['png', 'jpg', 'jpeg'])
+        img_file = st.file_uploader("Upload Image", type=['Screenshot 2026-05-08 235029'])
         if img_file:
             img = Image.open(img_file)
             st.image(img, width=300)
